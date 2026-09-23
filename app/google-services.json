@@ -1,15 +1,27 @@
 {
   "project_info": {
-    "project_number": "123456789012",
-    "project_id": "streamx-app"
+    "project_number": "330472273733",
+    "project_id": "streamxapp-68d3d",
+    "storage_bucket": "streamxapp-68d3d.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:123456789012:android:abcdef1234567890"
+        "mobilesdk_app_id": "1:330472273733:android:a069b70b4055363deab02c",
+        "android_client_info": {
+          "package_name": "com.streamx.app"
+        }
       },
-      "android_client_info": {
-        "package_name": "com.streamx.app"
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK3qR9BnJP_NiPBlSJT2PT4m5azclsrFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
       }
     }
   ],
