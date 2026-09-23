@@ -19,6 +19,9 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+
+        // MultiDex enable kiya gaya hai
+        multiDexEnabled = true
     }
 
     buildTypes {
@@ -56,6 +59,10 @@ android {
 }
 
 dependencies {
+    // MultiDex dependency
+    implementation("androidx.multidex:multidex:2.0.1")
+
+    // Core & Lifecycle
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
     implementation("androidx.activity:activity-compose:1.8.2")
@@ -81,6 +88,6 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:32.7.2"))
     implementation("com.google.firebase:firebase-firestore-ktx")
 
-    // Coil For images
+    // Coil for images
     implementation("io.coil-kt:coil-compose:2.5.0")
 }
